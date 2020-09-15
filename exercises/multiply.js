@@ -9,6 +9,14 @@
  */
 
 // Your code:
+function multiply(s1, s2) {
+    let ll = (s1 < 0) ? -s1 : s1
+    let ret = 0
+    for (let i = 0; i < ll; i++) {
+        ret += s2
+    }
+    return (s1 < 0) ? -ret : ret
+}
 
 //* Begin of tests
 const assert = require('assert');
