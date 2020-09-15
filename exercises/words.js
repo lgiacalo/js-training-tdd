@@ -7,6 +7,7 @@
  */
 
 // Your code:
+function words(s) {return s.split(" ")}
 
 //* Begin of tests
 const assert = require('assert');
