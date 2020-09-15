@@ -7,6 +7,9 @@
  */
 
 // Your code:
+function total(tab) {
+    return tab.reduce((acc, c) => acc + c, 0)
+}
 
 //* Begin of tests
 const assert = require('assert');

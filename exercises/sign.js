@@ -11,6 +11,9 @@
  */
 
 // Your code:
+function sign(n) {
+    return (n === 0) ? 0 : ( n > 0 ? 1 : -1)
+}
 
 //* Begin of tests
 const assert = require('assert');
